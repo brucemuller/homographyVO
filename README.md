@@ -8,7 +8,13 @@ We propose a self-supervised method for relative pose estimation for road scenes
 
 ## Visual Results
 
+The following video illustrates our performance on KITTI VO sequence 09. The second and third rows show the input images for that scene. The first row shows a composition of the second input image with the first input image warped into the persective of the second by leveraging ground-plane cross projection. This provides us with a self-supervision signal without needing any explicit depth estimation. In this case we use a frame separation of five between input images.
+
 [![Visual Results](https://img.youtube.com/vi/VrLbDH8LTFc/0.jpg)](https://www.youtube.com/watch?v=VrLbDH8LTFc)
+
+The following video illustrates with a much larger frame separation which we did not train with but still achieve viable visual odometry overall.
+
+[![Visual Results](https://img.youtube.com/vi/DtA6ll8NtSg/0.jpg)](https://www.youtube.com/watch?v=DtA6ll8NtSg)
 
 ## Coming Soon
 
