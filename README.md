@@ -1,21 +1,14 @@
 # Self-Supervised Ground-Relative Pose Estimation (ICPR 2022)
+# Self-supervised Relative Pose with Homography Model-fitting in the Loop (WACV 2023)
+
+
 ## Abstract
 
-We propose a self-supervised method for relative 
-pose estimation. Unlike existing self-supervised methods, 
-we do not train a dense depth estimation network in conjunction with 
-our pose network and hence avoid the complexity and ambiguity of this much 
-harder problem. Instead, we use a very simple geometric model in which we 
-assume the local road scene is planar. By estimating a 9D ground-relative 
-pose, we are able to perform cross-projection between images via the ground 
-plane using only a homography to compute a self-supervised appearance loss 
-between overlapping images. We use a geometric matching architecture that 
-can handle arbitrary pose pairs and use a pretrained feature extractor to 
-compute a perceptual appearance loss. Our approach is competitive with 
-more complex visual odometry methods that estimate dense depth maps.
+We propose a self-supervised method for relative pose estimation for road scenes. By exploiting the approximate planarity of the local ground plane, we can extract a self-supervision signal via cross-projection between images using a homography derived from estimated ground-relative pose. We augment cross-projected perceptual loss by including classical image alignment in the network training loop. We use pretrained semantic segmentation and optical flow to extract ground plane correspondences between approximately aligned images and RANSAC to find the best fitting homography. By decomposing to ground-relative pose, we obtain pseudo labels that can be used for direct supervision. We show that this extremely simple geometric model is competitive for visual odometry with much more complex self-supervised methods that must learn depth estimation in conjunction with relative pose.
 
 ## Coming Soon
 
+- [ ] Homography Estimation Module
 - [ ] DataLoading
 - [ ] Option Parsing
 - [ ] Requirments
