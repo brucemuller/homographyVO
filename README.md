@@ -1,6 +1,10 @@
 # Self-Supervised Ground-Relative Pose Estimation (ICPR 2022)
 # Self-supervised Relative Pose with Homography Model-fitting in the Loop (WACV 2023)
 
+This is the base code for our work on leveraging the road plane geometry
+for solving self-supervised relative pose estimation using only a single
+pose network. Currently you will need to supply your own dataloader, option 
+parsing and logging functionality. We developed using PyTorch and PyTorch-Lightning.
 
 ## Abstract
 
@@ -25,7 +29,4 @@ The following video illustrates with a much larger frame separation which we did
 - [ ] Pretrained models
 - [ ] Visual demo
 
-This is the base code for our work on leveraging the road plane geometry
-for solving self-supervised relative pose estimation using only a single
-pose network. Currently you will need to supply your own dataloader, option 
-parsing and logging functionality. We developed using PyTorch and PyTorch-Lightning.
+
