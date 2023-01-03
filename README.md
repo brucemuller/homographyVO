@@ -8,7 +8,7 @@ We propose a self-supervised method for relative pose estimation for road scenes
 
 ## Visual Results
 
-{% include youtube.html id="VrLbDH8LTFc" %}
+
 
 ## Coming Soon
 
