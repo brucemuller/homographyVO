@@ -1,5 +1,8 @@
-# Self-Supervised Ground-Relative Pose Estimation (ICPR 2022)
+[![Paper](https://img.shields.io/badge/paper-WACV2023-brightgreen)](https://openaccess.thecvf.com/content/WACV2023/html/Muller_Self-Supervised_Relative_Pose_With_Homography_Model-Fitting_in_the_Loop_WACV_2023_paper.html)
+
 # Self-supervised Relative Pose with Homography Model-fitting in the Loop (WACV 2023)
+# Self-Supervised Ground-Relative Pose Estimation (ICPR 2022)
+
 
 This is the base code for our work on leveraging the road plane geometry
 for solving self-supervised relative pose estimation using only a single
