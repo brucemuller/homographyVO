@@ -21,13 +21,6 @@ The following video illustrates with a much larger frame separation which we did
 
 [![Visual Results](https://img.youtube.com/vi/DtA6ll8NtSg/0.jpg)](https://www.youtube.com/watch?v=DtA6ll8NtSg)
 
-## Coming Soon
 
-- [ ] Homography Estimation Module
-- [ ] DataLoading
-- [ ] Option Parsing
-- [ ] Requirments
-- [ ] Pretrained models
-- [ ] Visual demo
 
 
